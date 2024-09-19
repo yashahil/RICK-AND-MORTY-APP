@@ -12,7 +12,7 @@ import EpisodeCharacters from './pages/EpisodeCharacters';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/rick-and-morty-app">
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/character" element={<Characters />} />
